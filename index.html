@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Prog - Oblig 4 </title>
+		<link rel ="stylesheet" type="text/css" href="main.css" />
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<div class = "pageWrap">
+
+			<main>
+				<article>
+
+					<div class="space">
+					</div>
+
+					<div class="nav">
+
+
+						<input id = "getFile" type="file" allow="text" class="fileInput" value="none" />
+
+						<br />
+
+						<form>
+							<div>
+							<input type="radio" name="data-based-on" id="location" value="location">
+							<label for="location">Locations</label>
+							</div>
+
+							<div>
+							<input type="radio" name="data-based-on" id="transaction" value="transaction-type">
+							<label for="transaction">Transaction Types</label>
+							</div>
+						</form>
+
+ 
+						<div class="space"></div>
+
+						<select id="options"></select>
+					</div>
+
+
+					<output id="tbl"></output>
+					<br />
+					<br />
+
+					<output id="tbl2"></output>
+					<br />
+					<br />
+
+					<canvas id="myCanvas" width="800" height="400"></canvas>
+				</article>
+			</main>
+
+
+			<footer class="footer">
+				<p>&copy; Bjørn Andersson 2019</p>
+				<a href="mailto:bjorn.s.andersson@hiof.no">bjorn.s.andersson@hiof.no</a>
+			</footer>
+		</div>
+	</body>
+</html>
